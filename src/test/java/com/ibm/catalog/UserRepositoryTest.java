@@ -3,6 +3,7 @@ package com.ibm.catalog;
 import com.ibm.catalog.model.User;
 import com.ibm.catalog.model.UserRepository;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@Ignore
 public class UserRepositoryTest {
 
     @Autowired
